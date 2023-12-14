@@ -1,5 +1,5 @@
 import Web3 from 'web3';
-import { handleGetAccounts } from './contractServices';
+// import { handleGetAccounts } from './contractServices';
 
 async function requestAccount() {
     const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
