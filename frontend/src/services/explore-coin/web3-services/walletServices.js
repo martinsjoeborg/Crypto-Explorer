@@ -13,9 +13,6 @@ export const connectWallet = async (setCurrentAccount) => {
       const accounts = await web3.eth.getAccounts();
       setCurrentAccount(accounts[0]);
   };
-  // const array = await handleGetAccounts();
-  // console.log(array);
-
 };
 
 export const handleAccountChanged = (setCurrentAccount) => {

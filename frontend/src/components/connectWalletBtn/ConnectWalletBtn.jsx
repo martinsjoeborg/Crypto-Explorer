@@ -1,6 +1,5 @@
 import { connectWallet } from '../../services/explore-coin/web3-services/walletServices';
 import "../../App.css";
-import { useEffect } from "react";
 
 const ConnectWalletBtn = ({ setCurrentAccount, currentAccount }) => {
     
@@ -17,7 +16,7 @@ const ConnectWalletBtn = ({ setCurrentAccount, currentAccount }) => {
             {checkAccount() ?
                 <div className="accText">
                     <div className="accText-content">
-                    {currentAccount ? currentAccount.slice(0, 4) + '...' + currentAccount.slice(-4) : 'Waiting...'}
+                    {currentAccount ? currentAccount.slice(0, 6) + '...' + currentAccount.slice(-4) : 'Waiting...'}
                     </div>
                     
                 </div> :
