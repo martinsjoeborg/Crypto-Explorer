@@ -1,0 +1,12 @@
+.navbar {
+    height: 15%;
+    background-color: rgb(20, 91, 68);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+/* Link {
+    list-style: none;
+    text-decoration: none;
+} */

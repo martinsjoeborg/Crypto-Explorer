@@ -1,0 +1,43 @@
+
+
+.defi-main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.defi-boxes {
+    background-color: blueviolet;
+    height: 70vh;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    /* padding-left: 20%;
+    padding-right: 20%; */
+}
+.swap-box {
+    height: 40vh;
+    width: 22%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.stake-box {
+    height: 40vh;
+    width: 22%;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.borrowLend-box {
+    height: 40vh;
+    width: 22%;
+    background-color: rgb(162, 255, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
